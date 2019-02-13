@@ -55,17 +55,27 @@
                 </ul>
             </p>
         </div>
-        <div>
+        <form>
             <h3>Dejame un mensaje</h3>
-            <!-- MENSAJE -->
-            <div>
-                    <label for="Nombre">First Name:</label>
-                    <input name="First" id="First Name" type="text" placeholder="John" required>
-                    <label for="Last Name">Last Name</label>
-                    <input name="Last" id="Last Name" type="text" placeholder="Smith" required></br>
+                <div>
+                    <!-- NOMBRE Y APELLIDO -->
+                    <label for="Nombre">Nombre:</label>
+                    <input name="Nombre" id="Nombre" type="text" placeholder="Juan" required>
+                    <label for="Apellido">Apellido:</label>
+                    <input name="Apellido" id="Apellido" type="text" placeholder="Perez" required></br></br>
+                </div>
+                <!-- EMAIL -->
+                <div>
+                    <label for="Email">Correl electrónico:</label>
+                    <input id="Email" type="email" placeholder="juanperez@juanperez.com" required></br></br>
+                </div>
+                <div>
+                    <!-- MENSAJE -->
+                </div>
+                <div>
+                    <!-- ENVIAR -->
                     <input type="submit" value="Enviar">
-            </div>
-      
-        </div>
+                </div>
+        </form>
     </body>
 </html>
